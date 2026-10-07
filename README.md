@@ -1,7 +1,9 @@
 <div align="center">
 
-# 🚀 TypeEnglish App
-### Master English Through Interactive Typing, Listening, and Spaced Repetition
+<img src="./header.jpg" alt="TypeEnglish App Header" width="100%" />
+
+# TypeEnglish App
+### Interactive English Typing, Listening Dictation, and Spaced Repetition Platform
 
 [![React](https://img.shields.io/badge/React-18-blue.svg?style=for-the-badge&logo=react)](https://reactjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue.svg?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
@@ -9,65 +11,64 @@
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-38B2AC.svg?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
-[Features](#-features) • [Installation](#-installation) • [Architecture](#-architecture) • [Screenshots](#-screenshots) • [Contributing](#-contributing)
+[Overview](#overview) • [Key Features](#key-features) • [Installation](#installation--setup) • [Architecture](#architecture--tech-stack) • [Progress Tracking](#progress-tracking)
 
 </div>
 
 ---
 
-## 🌟 Overview
+## Overview
 
-**TypeEnglish** is a comprehensive, desktop-first language learning platform designed to bridge the gap between passive reading and active production. By enforcing **typing** as the primary interaction method, the app builds muscle memory, grammatical accuracy, and rapid recall.
+TypeEnglish is a desktop-first language learning application designed to bridge the gap between passive reading and active production. By enforcing typing as the primary interaction method, the platform builds motor memory, grammatical precision, and rapid vocabulary recall.
 
-Operating entirely as a **100% Offline Local-First** application, it stores all progress securely in your browser using advanced state-management, requiring absolutely zero backend or server connection.
-
-## ✨ Features
-
-### 1. 📖 Vocabulary Training (4000 Essential English Words)
-- **Leitner Spaced Repetition System:** Dynamically schedules reviews based on your memory retention (Boxes 1 to 6).
-- **Rich Context:** Every word includes a native audio pronunciation, phonetic transcription (IPA), contextual image, Persian definition, and example sentence.
-- **Active Recall:** Type the word from memory based on its definition and context.
-
-### 2. 🎧 Listening & Dictation
-- Practice transcription with real native audio.
-- Automatically grades accuracy, handles punctuation gracefully, and tracks replays.
-- CEFR-aligned progression (A1 to C1).
-
-### 3. ⌨️ Speed Typing
-- Improve physical keyboard fluency and WPM (Words Per Minute).
-- Focus on specific letter combinations, common English syllables, and challenging punctuation.
-- Real-time keystroke evaluation, finger-placement guides, and visual accuracy heatmaps.
-
-### 4. 🧩 Grammar Typing
-- Contextual fill-in-the-blank grammar challenges requiring full sentence typing.
-- Topics categorized by CEFR level.
-
-### 5. 🔁 Smart Review Dashboard
-- The application automatically tracks your weak points across all four modules.
-- A centralized dashboard compiles due Leitner words, missed grammar topics, low-accuracy listening exercises, and slow typing lessons into a single, cohesive daily review queue.
+Operating entirely as an offline, local-first application, TypeEnglish stores all user progress securely in the browser, requiring no external server connection or account dependency.
 
 ---
 
-## 🚀 Installation & Setup
+## Key Features
 
-Since TypeEnglish is built on a modern Vite + React stack, running it locally is incredibly fast.
+### 1. Vocabulary Training (4000 Essential English Words)
+- **Leitner Spaced Repetition:** Reviews are scheduled dynamically across Boxes 1 through 6 based on recall retention.
+- **Rich Context:** Every entry provides native audio pronunciation, International Phonetic Alphabet (IPA) transcriptions, contextual imagery, definitions, and model sentences.
+- **Active Recall:** Prompts require typing the target word directly from contextual comprehension.
+
+### 2. Listening and Dictation
+- Native audio transcription practice across CEFR levels (A1 to C1).
+- Automatic grading engine with tolerance for punctuation and casing nuances.
+- Replay counters and word-level accuracy diagnostics.
+
+### 3. Speed and Touch Typing
+- Muscle memory development focused on high-frequency English letter combinations, syllables, and syntax.
+- Real-time Words Per Minute (WPM) tracking, accuracy metrics, and visual key placement guidance.
+
+### 4. Grammar Typing
+- Contextual fill-in-the-blank exercises requiring full sentence typing.
+- Structured progression covering fundamental to advanced grammatical patterns.
+
+### 5. Unified Review Dashboard
+- Automated aggregation of weak points across all four learning modules.
+- Single queue combining due Leitner vocabulary, incorrect grammar selections, low-accuracy listening exercises, and speed typing practice recommendations.
+
+---
+
+## Installation & Setup
 
 ### Prerequisites
-- **Node.js** (v18.0 or newer)
-- **npm** or **yarn**
+- Node.js (version 18.0 or higher)
+- npm or yarn
 
 ### Quick Start
 ```bash
-# 1. Clone the repository
+# Clone the repository
 git clone https://github.com/Alizjahan/Typeenglish-App.git
 
-# 2. Navigate to the directory
+# Navigate to the project directory
 cd Typeenglish-App
 
-# 3. Install dependencies
+# Install dependencies
 npm install
 
-# 4. Start the development server
+# Start the local development server
 npm run dev
 ```
 
@@ -79,38 +80,37 @@ npm run preview
 
 ---
 
-## 🏗 Architecture & Tech Stack
+## Architecture & Tech Stack
 
-TypeEnglish takes a radical **Local-First** approach.
+TypeEnglish is built on a local-first engineering foundation:
 
-- **Frontend Framework:** React 18 with TypeScript for robust, bug-free components.
-- **Styling:** Tailwind CSS for a highly responsive, modern, dark-mode prioritized UI.
-- **Build Tool:** Vite for instantaneous HMR and optimized production bundling.
-- **State Management & Persistence:** Custom Storage Services wrapping `localStorage`.
-- **Audio/TTS:** Web Speech API integration combined with pre-rendered static assets for zero-latency playback.
+- **Frontend:** React 18 with TypeScript for type-safe UI architecture.
+- **Styling:** Tailwind CSS with a clean, dark-mode prioritized interface.
+- **Build System:** Vite for fast Hot Module Replacement and bundle optimization.
+- **Persistence:** Custom storage service layer abstracting browser local storage.
+- **Audio Delivery:** Pre-rendered static assets paired with Web Speech API fallbacks for low-latency playback.
 
-### Data Security
-Your data belongs to you. Progress can be securely exported to a `.json` backup and imported on any other device. No data is ever sent to the cloud.
-
----
-
-## 📊 Progress Tracking
-
-- **Daily Goals:** Set your study target (10 to 60 minutes).
-- **Streaks:** Maintain your daily study habit.
-- **XP System:** Gamified progression based on accuracy and completion.
-- **Four-Pillar Dashboard:** Monitor your Mastery across Vocabulary, Grammar, Listening, and Typing independently.
+### Data Privacy & Offline Portability
+All user progress, statistics, and review intervals are stored locally. Full backups can be exported as structured JSON and imported across devices at any time without cloud transmission.
 
 ---
 
-## 👨‍💻 Author
+## Progress Tracking
+
+- **Daily Study Goals:** Configurable daily targets ranging from 10 to 60 minutes.
+- **Streak & Consistency:** Daily practice logging and habit tracking.
+- **Performance Analytics:** Independent accuracy, mastery, and volume metrics across all four skill modules.
+
+---
+
+## Author
 
 **Alireza Jahanbakhsh**
 - GitHub: [@Alizjahan](https://github.com/Alizjahan)
-- Email: Alizjahnbakhsh@gmail.com
+- Email: alizjahanbakhsh@gmail.com
 
 ---
 
 <div align="center">
-  <i>Built with ❤️ for English learners worldwide.</i>
+  <sub>TypeEnglish &bull; Desktop-First English Learning Platform</sub>
 </div>
