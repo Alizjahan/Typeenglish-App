@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./header.jpg" alt="TypeEnglish App Header" width="100%" />
+<img src="./header1.jpg" alt="TypeEnglish App Header" width="100%" />
 
 # TypeEnglish App
 ### Interactive English Typing, Listening Dictation, and Spaced Repetition Platform
