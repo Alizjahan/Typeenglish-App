@@ -5,11 +5,13 @@
 # TypeEnglish App
 ### Interactive English Typing, Listening Dictation, and Spaced Repetition Platform
 
-[![React](https://img.shields.io/badge/React-18-blue.svg?style=for-the-badge&logo=react)](https://reactjs.org/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue.svg?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
-[![Vite](https://img.shields.io/badge/Vite-5.0-purple.svg?style=for-the-badge&logo=vite)](https://vitejs.dev/)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-38B2AC.svg?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+[![Release](https://img.shields.io/badge/Release-v1.0.0-0D9DF8?style=flat-square&logo=github)](https://github.com/Alizjahan/Typeenglish-App)
+[![License](https://img.shields.io/badge/License-MIT-34C6BF?style=flat-square)](https://opensource.org/licenses/MIT)
+[![React](https://img.shields.io/badge/React-18-89DB76?style=flat-square&logo=react&logoColor=white)](https://reactjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Vite](https://img.shields.io/badge/Vite-5.0-purple?style=flat-square&logo=vite&logoColor=white)](https://vitejs.dev/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+[![Maintainer](https://img.shields.io/badge/Maintainer-Alizjahan-0F6FFA?style=flat-square&logo=github)](https://github.com/Alizjahan)
 
 [Overview](#overview) • [Key Features](#key-features) • [Installation](#installation--setup) • [Architecture](#architecture--tech-stack) • [Progress Tracking](#progress-tracking)
 
@@ -103,11 +105,17 @@ All user progress, statistics, and review intervals are stored locally. Full bac
 
 ---
 
-## Author
+## 👨‍💻 Author & Maintainer
 
 **Alireza Jahanbakhsh**
 - GitHub: [@Alizjahan](https://github.com/Alizjahan)
 - Email: alizjahanbakhsh@gmail.com
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
 
 ---
 
