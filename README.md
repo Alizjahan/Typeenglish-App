@@ -1,6 +1,8 @@
-<div align="center">
+<p align="center">
+  <img src="./header1.jpg" alt="TypeEnglish App Banner" width="100%">
+</p>
 
-<img src="./header1.jpg" alt="TypeEnglish App Header" width="100%" />
+<div align="center">
 
 # TypeEnglish App
 ### Interactive English Typing, Listening Dictation, and Spaced Repetition Platform
@@ -13,7 +15,9 @@
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 [![Maintainer](https://img.shields.io/badge/Maintainer-Alizjahan-0F6FFA?style=flat-square&logo=github)](https://github.com/Alizjahan)
 
-[Overview](#overview) • [Key Features](#key-features) • [Installation](#installation--setup) • [Architecture](#architecture--tech-stack) • [Progress Tracking](#progress-tracking)
+A desktop-first language learning application designed to bridge the gap between passive reading and active production through motor memory, grammatical precision, and rapid vocabulary recall.
+
+[Overview](#overview) • [Key Features](#-key-features) • [Architecture & Tech Stack](#-architecture--technical-stack) • [Installation & Setup](#-installation--setup) • [Progress Tracking](#-progress-tracking)
 
 </div>
 
@@ -27,7 +31,7 @@ Operating entirely as an offline, local-first application, TypeEnglish stores al
 
 ---
 
-## Key Features
+## ✨ Key Features
 
 ### 1. Vocabulary Training (4000 Essential English Words)
 - **Leitner Spaced Repetition:** Reviews are scheduled dynamically across Boxes 1 through 6 based on recall retention.
@@ -53,10 +57,38 @@ Operating entirely as an offline, local-first application, TypeEnglish stores al
 
 ---
 
-## Installation & Setup
+## 🏗️ Architecture & Technical Stack
+
+TypeEnglish is built on a local-first engineering foundation:
+
+- **Frontend:** React 18 with TypeScript for type-safe UI architecture.
+- **Styling:** Tailwind CSS with a clean, dark-mode prioritized interface.
+- **Build System:** Vite for fast Hot Module Replacement and bundle optimization.
+- **Persistence:** Custom storage service layer abstracting browser local storage.
+- **Audio Delivery:** Pre-rendered static assets paired with Web Speech API fallbacks for low-latency playback.
+
+```text
+Typeenglish-App/
+├── src/
+│   ├── components/       # Reusable UI widgets, inputs, and modals
+│   ├── hooks/            # Custom React hooks (audio, typing engine)
+│   ├── modules/          # Core learning modules (vocab, listening, grammar)
+│   ├── services/         # Local storage & Leitner scheduler
+│   └── types/            # TypeScript schema definitions
+├── public/               # Audio clips, IPA datasets, and static images
+├── package.json
+└── vite.config.ts
+```
+
+### Data Privacy & Offline Portability
+All user progress, statistics, and review intervals are stored locally. Full backups can be exported as structured JSON and imported across devices at any time without cloud transmission.
+
+---
+
+## 🚀 Installation & Setup
 
 ### Prerequisites
-- Node.js (version 18.0 or higher)
+- [Node.js](https://nodejs.org/) (version 18.0 or higher)
 - npm or yarn
 
 ### Quick Start
@@ -82,22 +114,7 @@ npm run preview
 
 ---
 
-## Architecture & Tech Stack
-
-TypeEnglish is built on a local-first engineering foundation:
-
-- **Frontend:** React 18 with TypeScript for type-safe UI architecture.
-- **Styling:** Tailwind CSS with a clean, dark-mode prioritized interface.
-- **Build System:** Vite for fast Hot Module Replacement and bundle optimization.
-- **Persistence:** Custom storage service layer abstracting browser local storage.
-- **Audio Delivery:** Pre-rendered static assets paired with Web Speech API fallbacks for low-latency playback.
-
-### Data Privacy & Offline Portability
-All user progress, statistics, and review intervals are stored locally. Full backups can be exported as structured JSON and imported across devices at any time without cloud transmission.
-
----
-
-## Progress Tracking
+## 📊 Progress Tracking
 
 - **Daily Study Goals:** Configurable daily targets ranging from 10 to 60 minutes.
 - **Streak & Consistency:** Daily practice logging and habit tracking.
@@ -107,9 +124,9 @@ All user progress, statistics, and review intervals are stored locally. Full bac
 
 ## 👨‍💻 Author & Maintainer
 
-**Alireza Jahanbakhsh**
+Developed and maintained by **[Alireza Jahanbakhsh](https://github.com/Alizjahan)**.
 - GitHub: [@Alizjahan](https://github.com/Alizjahan)
-- Email: alizjahanbakhsh@gmail.com
+- Email: [alizjahanbakhsh@gmail.com](mailto:alizjahanbakhsh@gmail.com)
 
 ---
 
