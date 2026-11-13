@@ -122,11 +122,10 @@ npm run preview
 
 ---
 
-## 👨‍💻 Author & Maintainer
+## Maintainer
 
-Developed and maintained by **[Alireza Jahanbakhsh](https://github.com/Alizjahan)**.
-- GitHub: [@Alizjahan](https://github.com/Alizjahan)
-- Email: [alizjahanbakhsh@gmail.com](mailto:alizjahanbakhsh@gmail.com)
+- **GitHub:** [@Alizjahan](https://github.com/Alizjahan)
+- **Contact:** [alizjahanbakhsh@gmail.com](mailto:alizjahanbakhsh@gmail.com)
 
 ---
 
